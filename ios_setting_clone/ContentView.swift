@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 TextField("검색", text: $inputText)  // TextField 만들기
-                    .textFieldStyle(RoundedBorderTextFieldStyle())  // 스타일 적용
+                    
                 Section() {
                     header:do {
                         HStack{
